@@ -1,0 +1,100 @@
+	h1{
+	color:gold;	
+	font-size:50px;
+	}
+	
+	p{
+	color:azure;
+	font-size:25px;
+	}	
+	
+	body{
+	background-image: url("http://www.medialoot.com/images/band-logo-tut/sample-dark-grunge.jpg");
+	}
+	
+	#PicCred{
+	text-decoration:none;
+	color:dodgerblue;
+	}
+	
+	#Intro{
+	font-size: 30px;
+	}
+	
+	
+	#link{
+	text-decoration:none;
+	color:dodgerblue;
+	}
+	
+	#thank{
+	margin-top:200px;
+	}
+		
+	#hunt{
+	text-decoration:none;
+	color:azure;
+	}	
+		
+	#everything {
+	margin-top:40px;
+	}	
+	
+	.BegText{
+		width: 1000;
+	}			
+	
+	#navbar {
+		list-style-type:none;
+		margin: 0;
+		padding: 0;
+		background-color: orange;
+		width:500px;
+		overflow: hidden;
+		border: 1px solid blue;
+		position:fixed;
+		top: 0;
+		width:100%;
+		
+	}
+	
+	.navitem {
+	float: left;
+	
+	text-align: center;
+	/* border-bottom: 1px solid orange*/ 
+	}
+	
+	.navitem a {
+	display:block;
+	padding: 8px 16px;
+	color: blue;
+	text-decoration: none;
+	}
+	
+	.navitem:last-child {
+		border-bottom: none;
+	}
+	
+	/* give local style to the page we are on */
+	
+	.navitem a.active{
+	background-color: blue;
+	color: orange;
+	
+	}
+	
+	.navitem a:hover:not(.active){
+	/* change background color to something contrasting and text color that can be read */
+	
+	background-color: blue;
+	color: orange;
+	
+	}
+	
+	#main {
+	margin-top:30px;
+	padding:20px;
+	}
+	
+
