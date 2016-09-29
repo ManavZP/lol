@@ -10,6 +10,7 @@
 	
 	body{
 	background-image: url("http://www.medialoot.com/images/band-logo-tut/sample-dark-grunge.jpg");
+    background-attachment: fixed;
 	}
 	
 	#PicCred{
@@ -30,6 +31,7 @@
 	#thank{
 	margin-top:200px;
 	}
+	
 		
 	#hunt{
 	text-decoration:none;
